@@ -25,12 +25,14 @@ function filterJobs(){
     const category = document.getElementById('category').value;
     const location = document.getElementById('location').value;
     const jobList = document.getElementById('jobList');
+    const search = document.getElementById('search').value.toLowerCase();
 
     jobList.innerHTML = ''
     const filteredJobs = jobs.filter(job =>{
         return (
             (category === job.category || category === '')&&
-            (location === job.location || location === '')
+            (location === job.location || location === '')&&
+            (job.title.toLowerCase().includes(search) || search === '')
         )
     });
     // console.log(filteredJobs);

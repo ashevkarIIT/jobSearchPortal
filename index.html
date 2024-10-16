@@ -6,14 +6,25 @@
     <title>Job Search Portal</title>
     <script src="app.js" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Ensure the body takes full height and prevents overflow */
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
 </head>
-<body class="bg-gray-100">
+<body class="bg-gray-100 flex flex-col">
 
     <header class="bg-blue-600 p-4 text-white">
         <h1 class="text-3xl font-bold text-center">Job Search Portal</h1>
     </header>
 
-    <main class="container mx-auto mt-10 p-4">
+    <main class="flex-grow container mx-auto mt-10 p-4"> <!-- Use flex-grow here -->
+        <div class="mb-4">
+            <label for="search" class="block text-gray-700 font-bold mb-2">Search by Title:</label>
+            <input type="text" id="search" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" placeholder="e.g., Developer, Manager">
+        </div>
         <section>
             <h2 class="text-2xl font-semibold mb-4">Filter Jobs</h2>
             <form id="jobFilterForm" class="bg-white shadow-md rounded p-4 mb-8">
@@ -25,6 +36,10 @@
                         <option value="Marketing">Marketing</option>
                         <option value="Finance">Finance</option>
                         <option value="Sales">Sales</option>
+                        <option value="Human Resources">Human Resources</option>
+                        <option value="Operations">Operations</option>
+                        <option value="Design">Design</option>
+                        <option value="Business">Business</option>
                     </select>
                 </div>
 
@@ -36,6 +51,10 @@
                         <option value="San Francisco">San Francisco</option>
                         <option value="Chicago">Chicago</option>
                         <option value="Austin">Austin</option>
+                        <option value="Denver">Denver</option>
+                        <option value="Miami">Miami</option>
+                        <option value="Seattle">Seattle</option>
+                        <option value="Los Angeles">Los Angeles</option>
                     </select>
                 </div>
 
@@ -53,7 +72,7 @@
         </section>
     </main>
 
-    <footer class="absolute bottom-0 w-full bg-blue-600 p-4 text-white text-center mt-10">
+    <footer class="bg-blue-600 p-4 text-white text-center">
         <p>&copy; 2024 Job Search Portal | Aishwarya Shevkar</p>
     </footer>
 
