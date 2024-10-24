@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Simplify</title>
+    <script src="navbar.js"></script>
+    <script src="profile.html"></script>
+    <script src="jobs.js"></script>
+    <link href="output.css" rel="stylesheet"> <!-- Link to your output.css -->
+</head>
+<body class="bg-gray-50">
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="m-10 mx-10 mx-auto p-8 bg-white   mt-10">
+        <div class="flex items-center space-x-8">
+            <img src="resume/Screenshot 2024-10-23 at 10.58.00 PM.png" alt="Profile Picture" class="w-32 h-32 rounded-full shadow-lg border-2 border-gray-300">
+            <div>
+                <h1 class="text-4xl font-bold text-primary">Aishwarya Shevkar</h1>
+                <p class="text-xl text-color2">Software Developer</p>
+                <p class="text-color3 mt-2">Currently pursuing Masters in Information Technology and Management at Illinois Institute of Technology, Chicago.</p>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="mt-8 bg-white p-6 rounded-lg shadow-lg">        
+            <h2 class="text-2xl font-semibold text-color1 mb-4">About Me</h2>
+            <p class="text-gray-600 leading-relaxed">I am a passionate frontend developer with experience in building dynamic e-commerce websites, MIS applications, and landing pages using technologies like HTML, CSS, JavaScript, React.js, and Vue.js. I have a proven record of increasing engagement and conversion rates through redesigns and optimizations.</p>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="mt-8 mt-8 bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-semibold text-color1 mb-4">Experience</h2>
+            
+            <!-- Experience 1 -->
+            <div class="mb-6">
+                <h3 class="text-xl font-bold text-gray-600">Frontend Developer</h3>
+                <p class="text-gray-600">Anikaay Integration, Pune, India | Mar 2022 – Jun 2023</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2">
+                    <li>Led e-commerce website redesign, increasing user engagement by 30% and conversion rates by 20%.</li>
+                    <li>Developed dynamic e-commerce websites, MIS applications, and landing pages.</li>
+                    <li>Enhanced the online shopping experience, resulting in a 25% sales increase for a specific product segment.</li>
+                </ul>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="mb-6">
+                <h3 class="text-xl font-bold text-gray-600">Test Engineer</h3>
+                <p class="text-gray-600">GlobalStep, Pune, India | Aug 2020 – Mar 2022</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2">
+                    <li>Recognized for outstanding contributions, optimized performance, and mentored team members.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="mt-8 bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-semibold text-color1 mb-4">Skills</h2>
+            <div id="skills-container" class="flex flex-wrap space-x-4">
+                <span class="bg-primary text-white rounded-full px-4 py-2 mb-2 relative">HTML</span>
+                <span class="bg-primary text-white rounded-full px-4 py-2 mb-2 relative">CSS</span>
+                <span class="bg-primary text-white rounded-full px-4 py-2 mb-2 relative">JavaScript</span>
+                <span class="bg-primary text-white rounded-full px-4 py-2 mb-2 relative">React.js</span>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="mt-8 bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-semibold text-color1 mb-4">Education</h2>
+            
+            <!-- Degree 1 -->
+            <div class="mb-4">
+                <h3 class="text-xl font-bold text-color2">Master of Information Technology and Management</h3>
+                <p class="text-color3">Illinois Institute of Technology, Chicago, IL | Expected: May 2025 | GPA: 3.6</p>
+            </div>
+
+            <!-- Degree 2 -->
+            <div class="mb-4">
+                <h3 class="text-xl font-bold text-color2">Bachelor of Engineering in Information Technology</h3>
+                <p class="text-color3">University of Pune, Pune, MH, India | June 2020 | GPA: 3.2</p>
+            </div>
+        </div>
+
+        <div class="mt-8 bg-white p-6 rounded-lg shadow-lg">
+            <h2 class="text-2xl font-semibold text-color1 mb-4">Resume</h2>
+            <button id="resume" class="bg-primary text-white font-bold py-2 px-4 rounded hover:bg-hover" onclick="openPDF()">Download Resume</button>
+        </div>
+    </div>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-6">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2024 Simplify. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html>

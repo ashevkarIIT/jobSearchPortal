@@ -1,0 +1,174 @@
+[
+    {
+        "title": "Frontend Developer", 
+        "category": "IT", 
+        "location": "New York" 
+    },
+    { 
+        "title": "Marketing Specialist", 
+        "category": "Marketing", 
+        "location": "San Francisco" 
+    },
+    { 
+        "title": "Financial Analyst", 
+        "category": "Finance", 
+        "location": "Chicago" 
+    },
+    { 
+        "title": "Sales Executive", 
+        "category": "Sales", 
+        "location": "Austin" 
+    },
+    { 
+        "title": "Backend Developer", 
+        "category": "IT", 
+        "location": "San Francisco" 
+    },
+    { 
+        "title": "Marketing Manager", 
+        "category": "Marketing", 
+        "location": "Austin" 
+    },
+    { 
+        "title": "Accountant", 
+        "category": "Finance", 
+        "location": "New York" 
+    },
+    { 
+        "title": "Data Scientist", 
+        "category": "IT", 
+        "location": "Chicago" 
+    },
+    { 
+        "title": "Product Manager", 
+        "category": "Business", 
+        "location": "Seattle" 
+    },
+    { 
+        "title": "HR Manager", 
+        "category": "Human Resources", 
+        "location": "Denver" 
+    },
+    { 
+        "title": "DevOps Engineer", 
+        "category": "IT",
+        "location": "Austin" 
+    },
+    { 
+        "title": "Business Analyst", 
+        "category": "Business", 
+        "location": "New York" 
+    },
+    { 
+        "title": "Graphic Designer", 
+        "category": "Design",
+        "location": "Los Angeles" 
+    },
+    { 
+        "title": "Content Writer", 
+        "category": "Marketing", 
+        "location": "Seattle"
+    },
+    { 
+        "title": "Operations Manager", 
+        "category": "Operations", 
+        "location": "Miami" 
+    },
+    { 
+        "title": "UX Designer", 
+        "category": "Design", 
+        "location": "San Francisco" 
+    },
+    { 
+        "title": "Cloud Engineer", 
+        "category": "IT",
+        "location": "Chicago" 
+    },
+    { 
+        "title": "Financial Planner", 
+        "category": "Finance", 
+        "location": "Austin" 
+    },
+    { 
+        "title": "IT Specialist", 
+        "category": "IT", 
+        "location": "New York" 
+    },
+    { 
+        "title": "Marketing Coordinator", 
+        "category": "Marketing", 
+        "location": "San Francisco" 
+    },
+    { 
+        "title": "Finance Analyst", 
+        "category": "Finance", 
+        "location": "Chicago" 
+    },
+    { 
+        "title": "Sales Executive", 
+        "category": "Sales", 
+        "location": "Austin" 
+    },
+    { 
+        "title": "HR Manager", 
+        "category": "Human Resources", 
+        "location": "Denver" 
+    },
+    { 
+        "title": "Operations Supervisor", 
+        "category": "Operations", 
+        "location": "Miami" 
+    },
+    { 
+        "title": "Graphic Designer", 
+        "category": "Design", 
+        "location": "Seattle" 
+    },
+    { 
+        "title": "Business Analyst", 
+        "category": "Business", 
+        "location": "Los Angeles" 
+    },
+    { 
+        "title": "IT Project Manager", 
+        "category": "IT", 
+        "location": "Chicago" 
+    },
+    { 
+        "title": "Social Media Manager", 
+        "category": "Marketing", 
+        "location": "Miami" 
+    },
+    { 
+        "title": "Financial Consultant", 
+        "category": "Finance", 
+        "location": "New York" 
+    },
+    { 
+        "title": "Sales Associate", 
+        "category": "Sales", 
+        "location": "San Francisco" 
+    },
+    { 
+        "title": "Recruitment Specialist", 
+        "category": "Human Resources", 
+        "location": "Austin" 
+    },
+    { 
+        "title": "Operations Analyst", 
+        "category": "Operations", 
+        "location": "Denver" 
+    },
+    { 
+        "title": "UX Designer", 
+        "category": "Design", 
+        "location": "Los Angeles" 
+    },
+    { 
+        "title": "Product Manager", 
+        "category": "Business", 
+        "location": "Seattle" 
+    }
+            
+    
+]

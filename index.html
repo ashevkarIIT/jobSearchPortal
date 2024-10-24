@@ -3,78 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Search Portal</title>
-    <script src="app.js" defer></script>
+    <title>Welcome to Simplify Job Search</title>
+    <script src="navbar.js" ></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        /* Ensure the body takes full height and prevents overflow */
-        html, body {
-            height: 100%;
-            margin: 0;
-        }
-    </style>
+    <link href="output.css" rel="stylesheet"> 
 </head>
-<body class="bg-gray-100 flex flex-col">
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <div id="navbar"></div>
+    <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="bg-primary text-white text-center py-20">
+        <h1 class="text-5xl font-bold">Discover Your Next Career Move</h1>
+        <p class="text-xl mt-4">Explore thousands of jobs from the worlds top companies</p>
+        <a href="jobs.html" class="mt-8 bg-white text-primary px-6 py-3 rounded-lg inline-block hover:bg-gray-100">Find Jobs Now</a>
+    </section>
 
-    <header class="bg-blue-600 p-4 text-white">
-        <h1 class="text-3xl font-bold text-center">Job Search Portal</h1>
-    </header>
-
-    <main class="flex-grow container mx-auto mt-10 p-4"> <!-- Use flex-grow here -->
-        <div class="mb-4">
-            <label for="search" class="block text-gray-700 font-bold mb-2">Search by Title:</label>
-            <input type="text" id="search" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight" placeholder="e.g., Developer, Manager">
+    <!-- Features Section -->
+    <section class="container mx-auto py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold mb-4 text-color1">Find Jobs Easily</h3>
+            <p class="text-color3">Search through thousands of job listings and apply with a single click.</p>
         </div>
-        <section>
-            <h2 class="text-2xl font-semibold mb-4">Filter Jobs</h2>
-            <form id="jobFilterForm" class="bg-white shadow-md rounded p-4 mb-8">
-                <div class="mb-4">
-                    <label for="category" class="block text-gray-700 text-sm font-bold mb-2">Job Category</label>
-                    <select id="category" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight">
-                        <option value="">Select a category</option>
-                        <option value="IT">IT</option>
-                        <option value="Marketing">Marketing</option>
-                        <option value="Finance">Finance</option>
-                        <option value="Sales">Sales</option>
-                        <option value="Human Resources">Human Resources</option>
-                        <option value="Operations">Operations</option>
-                        <option value="Design">Design</option>
-                        <option value="Business">Business</option>
-                    </select>
-                </div>
-
-                <div class="mb-4">
-                    <label for="location" class="block text-gray-700 text-sm font-bold mb-2">Location</label>
-                    <select id="location" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight">
-                        <option value="">Select a location</option>
-                        <option value="New York">New York</option>
-                        <option value="San Francisco">San Francisco</option>
-                        <option value="Chicago">Chicago</option>
-                        <option value="Austin">Austin</option>
-                        <option value="Denver">Denver</option>
-                        <option value="Miami">Miami</option>
-                        <option value="Seattle">Seattle</option>
-                        <option value="Los Angeles">Los Angeles</option>
-                    </select>
-                </div>
-
-                <div class="text-right">
-                    <button type="button" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-500" onclick="filterJobs()">Search Jobs</button>
-                </div>
-            </form>
-        </section>
-
-        <section>
-            <h2 class="text-2xl font-semibold mb-4">Job Listings</h2>
-            <div id="jobList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <!-- Job cards will be dynamically added here -->
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-blue-600 p-4 text-white text-center">
-        <p>&copy; 2024 Job Search Portal | Aishwarya Shevkar</p>
-    </footer>
+        <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold mb-4 text-color1">Personalized Recommendations</h3>
+            <p class="text-color3">Get jobs recommended to you based on your skills and interests.</p>
+        </div>
+        <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+            <h3 class="text-xl font-semibold mb-4 text-color1">Easy Profile Management</h3>
+            <p class="text-color3">Easily update your profile, upload resumes, and track your applications.</p>
+        </div>
+    </section>
+</main>
+  <!-- Footer -->
+  <footer class="bg-primary text-white py-6">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2024 Simplify. All Rights Reserved.</p>
+    </div>
+</footer>
 
 </body>
 </html>
